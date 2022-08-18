@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/e26e4a68b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="Assets/Logo.png" alt="logo">
+                <h3>Meals</h3>
+            </div>
+            <ul class="nav">
+                <li><a href="#"><span>H</span>ome</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Meal Plans</a></li>
+            </ul>
+            <ul class="secNav">
+                <li class="search"><a href="#"><img src="Assets/Search.svg" alt="Search Button"></a></li>
+                <li><a href="#"><img src="Assets/Cart.svg" alt="Cart Button"></a></li>
+                <li class="hamBurger"><img src="Assets/Hamburger Menu.png" alt="HamBurger Menu"></li>
+            </ul>
+            <ul class="headerCTA">
+                <li><a href="#">Sign in</a></li>
+                <li><button>Create Account</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mobileHeader">
+        <div><img src="Assets/Cancel Icon.png" alt="" id="cancelIcon"></div>
+        <button style="margin-left:30px ;">Create Account</button>
+        <button style="background-color: white; color: black; border: 1px solid #DA3743;">Sign in</button>
+        <ul>
+            <li><a href=""> <img src="Assets/House.png" alt="">Home</a></li>
+            <li><a href=""> <img src="Assets/shopping.png" alt="">Menu</a></li>
+            <li><a href=""> <img src="Assets/Cart.svg" alt="">My Tray</a></li>
+            <li><a href=""> <img src="Assets/note icon.png" alt="">Meal plan</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="herosection">
+            <div class="hero">
+                <div class="CTA">
+                    <h1>
+                        Delicious meals at your convenience
+                    </h1>
+                    <p>Order your meals from us and we will have it delivered at your doorstep.
+                    </p>
+                    <button>Get Started</button>
+                    <label for="search">Instant Order</label>
+                    <input type="text" name="search" id="search" placeholder="&#128269;  Search for meal">
+                </div>
+                <div class="image">
+                    <img src="Assets/image 5.png" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="fixedMessenger"><img src="assets/chat-dots.svg" alt=""></div>
+
+        <!-- Menu Section -->
+
+        <section class="menu">
+            <div class="divmenu">
+                <h4>MENU</h4>
+                <div class="menuNav">
+                    <h3 class="targ">Current Menu</h3>
+                    <ul>
+                        <li>All</li>
+                        <li>Rice</li>
+                        <li>Beans</li>
+                        <li>Fries</li>
+                        <li>Swallow</li>
+                        <li>Others</li>
+                    </ul>
+                </div>
+                    <div class="menuContainer">
+                        <div class="container">
+                            <img src="Assets/ChickenRice.png" alt="">
+                            <div>
+                                <h3>Jollof Rice and Chicken</h3>
+                                <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                                <div>
+                                    <span> ₦ 1,500</span>
+                                    <button> Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="Assets/Swallow.png" alt="">
+                            <div>
+                                <h3>Swallow with Draw Soup</h3>
+                                <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                                <div>
+                                    <span> ₦ 1000</span>
+                                    <button>Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="Assets/ChipsEgg.png" alt="">
+                            <div>
+                                <h3>Fries with Egg sauce</h3>
+                                <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                                <div>
+                                    <span> ₦ 1,500</span>
+                                    <button> Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="Assets/EgusiSoup.png" alt="">
+                            <div>
+                                <h3>Swallow with Egusi Soup</h3>
+                                <p>Nicely cooked egusi soup and eba</p>
+                                <div>
+                                    <span>₦ 1000</span>
+                                    <button> Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="Assets/Beans.png" alt="">
+                            <div>
+                                <h3>Beans</h3>
+                                <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                                <div>
+                                    <span>₦ 700</span>
+                                    <button>Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <img src="Assets/FriedRice.png" alt="">
+                            <div>
+                                <h3>Fried Rice</h3>
+                                <p>Fried potato/yam chips with egg sauce or any topping of your choice</p>
+                                <div>
+                                    <span>₦ 600</span>
+                                    <button>Place Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="more">
+                            <button>Full Menu</button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Testimonial section -->
+
+        <section class="testimonialsSection">
+            <div class="TesSec">
+                <div class="para">
+                    <h3>What our customers say about us</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                </div>
+                <div class="contain">
+                    <div class="fir">
+                        <img src="Assets/Image.png" alt="">
+                        <div>
+                            <h4>John
+                                Samson</h4>
+                            <span>ENUGU NIGERIA</span>
+                        </div>
+                    </div>
+                    <div class="par">
+                        White dwarf a still more glorious dawn awaits tingling of the spine emerged into consciousness Vangelis shores of the cosmic ocean. Tendrils of gossamer clouds kindling the energy hidden in matter concept of the number one permanence.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+
+        <section class="blog">
+            <div class="BlogDiv">
+                <h3>Blog Our Latest News</h3>
+                <p class="tar">Have you ever browsed food blogs like mine and wondered how to start a food blog of your very own? </p>
+                <div class="blogContainer">
+                    <div class="blogCon">
+                        <img src="Assets/Pao Chicken.png" alt="">
+                        <div>
+                        <p class="designP"><span class="design">Design</span><span>01 October 2019</span></p>
+                        <h3>Better Than Takeout Kung Pao Chicken</h3>
+                        <p>This spicy, tangy, and sweet better than takeout no peanut kung pao chicken stir fry recipe </p>
+                        <a href="" class="anchor">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="blogCon">
+                        <img src="Assets/sesame soy.png" alt="">
+                        <div>
+                        <p class="designP"><span class="design">Design</span><span>01 October 2019</span></p>
+                        <h3>The Best Sesame Soy Broccoli Salad</h3>
+                        <p>Hello broccoli salad! Broccoli salad with a sweet and tangy dressing is my new go to for summer parties. </p>
+                        <a href="" class="anchor">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="blogCon">
+                        <img src="Assets/Vegi.png" alt="">
+                        <div>
+                        <p class="designP"><span class="design">Design</span><span>01 October 2019</span></p>
+                        <h3>Better Than Takeout Kung Pao Chicken</h3>
+                        <p>This super easy version of dan dan noodles is fast, flavorful, and vegetarian to boot. It’s definitely </p>
+                        <a href="" class="anchor">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="footer">
+                <div class="logo1">
+                    <img src="Assets/Logo.png" alt="logo">
+                    <h3>Meals</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
