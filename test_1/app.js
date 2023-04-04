@@ -1,3 +1,5 @@
+##The JavaScript Files here##
+
 const mobileNav = document.querySelector('.mobileHeader')
 const cancelIcon = document.querySelector('#cancelIcon')
 const hamBurgerMenu = document.querySelector('.hamBurger')
