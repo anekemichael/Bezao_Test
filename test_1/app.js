@@ -7,6 +7,8 @@ const containers = document.querySelectorAll('.container')
 const buttons = document.querySelectorAll('.container div div button')
 const headers = document.querySelectorAll('.container div h3')
 
+/*Stay here and wait for me to come because I also know a thing or two for you*/
+
 
 function handleHamburgerClick(){
     mobileNav.style.display = 'block';
